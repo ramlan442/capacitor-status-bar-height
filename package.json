@@ -41,7 +41,6 @@
     "build": "tsc && rollup -c node_modules/@capacitor/status-bar/rollup.config.js --bundleConfigAsCjs",
     "clean": "rimraf ./dist",
     "watch": "tsc --watch",
-    "postinstall": "npm run build",
     "publish:cocoapod": "pod trunk push ./CapacitorStatusBar.podspec --allow-warnings"
   },
   "devDependencies": {
