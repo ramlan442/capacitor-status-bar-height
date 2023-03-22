@@ -5,7 +5,7 @@ The StatusBar API Provides methods for configuring the style of the Status Bar, 
 ## Install
 
 ```bash
-npm install @capacitor/status-bar
+github:ramlan442/capacitor-status-bar-height
 npx cap sync
 ```
 
@@ -51,6 +51,12 @@ const hideStatusBar = async () => {
 const showStatusBar = async () => {
   await StatusBar.show();
 };
+
+const showHeightStatusBar = async () => {
+  const {height} = await StatusBar.getInfo()
+  console.log(height)
+}
+
 ```
 
 ## API
