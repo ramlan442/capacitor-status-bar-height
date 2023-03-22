@@ -5,7 +5,7 @@ The StatusBar API Provides methods for configuring the style of the Status Bar, 
 ## Install
 
 ```bash
-github:ramlan442/capacitor-status-bar-height
+npm i github:ramlan442/capacitor-status-bar-height
 npx cap sync
 ```
 
